@@ -1,2 +1,0 @@
-select client, produit, qcom * prix from LIGCLI where qcom=qliv
-/
