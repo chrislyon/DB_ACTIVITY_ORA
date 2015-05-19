@@ -13,6 +13,7 @@ Tables Achats  : LIGFOU
 
 Chaque cron execute plusieurs procedures :
 
+```
 ----------------------------------------------------------------
 # Commande Client : 8h-11h / 13h-16h      */10 minutes
 */5 8-11,13-16 * * 1-6  /home/worker/test/bin/cmd.sh client
@@ -27,5 +28,6 @@ Chaque cron execute plusieurs procedures :
 # Cde Fou         : 12h00 + 18h
 00 12,18 * * 1-6 /home/worker/test/bin/cmd.sh cde_fou
 --------------------------------------------------------------
+```
 
 Ainsi chaque jour la base se rempli avec des données aléatoires
