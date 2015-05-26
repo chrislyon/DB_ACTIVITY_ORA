@@ -1,0 +1,6 @@
+## Les fichiers de logs
+*.log
+## Les traces de pneus SQL
+afiedt.buf
+## Python
+*.pyc
